@@ -1,0 +1,19 @@
+/**
+ * Problem: Reverse every word in a string
+ * Difficulty: Medium
+ * Reference: https://leetcode.com/problems/reverse-words-in-a-string/
+ *
+ * Approach:
+ * - TODO: Describe the approach before coding.
+ *
+ * Time complexity: TODO
+ * Space complexity: TODO
+ */
+
+'use strict';
+
+function solve() {
+  // TODO: Implement and test the solution.
+}
+
+solve();

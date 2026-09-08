@@ -1,0 +1,12 @@
+{
+  "name": "striver-a2z-dsa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JavaScript solutions for Striver A2Z DSA Sheet",
+  "scripts": {
+    "check": "find . -name '*.js' -not -path './node_modules/*' -exec node --check {} \\;"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
