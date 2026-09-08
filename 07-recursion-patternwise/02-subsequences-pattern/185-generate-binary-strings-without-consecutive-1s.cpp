@@ -1,0 +1,24 @@
+/**
+ * Problem: Generate Binary Strings Without Consecutive 1s
+ * Difficulty: Medium
+ * Reference: https://takeuforward.org/data-structure/generate-all-binary-strings
+ *
+ * Approach:
+ * - TODO: Describe the approach before coding.
+ *
+ * Time complexity: TODO
+ * Space complexity: TODO
+ */
+
+#include <algorithm>
+#include <iostream>
+#include <string>
+#include <unordered_map>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    // TODO: Implement and test the solution.
+    return 0;
+}
