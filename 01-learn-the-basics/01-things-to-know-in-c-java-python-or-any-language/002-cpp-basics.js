@@ -12,8 +12,11 @@
 
 'use strict';
 
-function solve() {
-  // TODO: Implement and test the solution.
+class Solution {
+  findLength(s){
+    return s.length;
+  }
 }
 
-solve();
+let s = "My name is Evwrujae Marho";
+console.log(s.length);

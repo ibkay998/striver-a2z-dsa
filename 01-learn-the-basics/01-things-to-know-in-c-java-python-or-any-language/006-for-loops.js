@@ -12,8 +12,14 @@
 
 'use strict';
 
-function solve() {
-  // TODO: Implement and test the solution.
-}
+class Solution {
+    forLoop(low, high) {
+        let total = 0;
 
-solve();
+        for (let i = low; i <= high; i++) {
+            total += i;
+        }
+
+        return total;
+    }
+}
