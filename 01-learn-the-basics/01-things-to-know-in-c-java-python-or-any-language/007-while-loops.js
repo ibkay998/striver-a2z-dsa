@@ -11,9 +11,13 @@
  */
 
 'use strict';
-
-function solve() {
-  // TODO: Implement and test the solution.
+class Solution {
+  whileLoopExample(n) {
+    let i = 0;
+    while (i < n) {
+      console.log(i);
+      i++;
+    }
+  }
 }
 
-solve();

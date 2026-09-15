@@ -12,8 +12,14 @@
 
 'use strict';
 
-function solve() {
-  // TODO: Implement and test the solution.
+class Solution {
+  // Pass by Value
+  passByValue(num) {
+    num += 10;
+    console.log("Inside function (Pass by Value):", num);
+  }
+  passByReference(arr) {
+    arr.push(10);
+    console.log("Inside function (Pass by Reference):", arr);
+  }
 }
-
-solve();
