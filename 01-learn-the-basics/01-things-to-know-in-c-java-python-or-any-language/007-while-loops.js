@@ -12,8 +12,9 @@
 
 'use strict';
 class Solution {
-  whileLoopExample(n) {
+  whileLoop(n) {
     let i = 0;
+
     while (i < n) {
       console.log(i);
       i++;
@@ -21,3 +22,5 @@ class Solution {
   }
 }
 
+let solution = new Solution();
+solution.whileLoop(5);
