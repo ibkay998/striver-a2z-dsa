@@ -12,8 +12,17 @@
 
 'use strict';
 
-function solve() {
-  // TODO: Implement and test the solution.
+class Solution {
+    pattern4(n) {
+        let row = "";
+        for (let i = 1; i <= n; i++) {
+            for (let j = 1; j <= i; j++) {
+                row += i;
+            }
+            console.log(row);
+            row = "";
+        }
+    }
 }
-
-solve();
+let solution = new Solution();
+solution.pattern4(5);
